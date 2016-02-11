@@ -1,3 +1,8 @@
+.no-collapse {
+  width: 1050px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Lato","Calibri","sans-serif";
   font-weight: 300;
@@ -27,12 +32,13 @@ h1 {
   border-top: 1px solid rgb(200, 200, 200);
 }
 
-.hoverRightArrow:hover #title1 {
+.hoverRightArrow:hover #title1  {
   font-weight: 400;
 }
 
 .hoverRightArrow:hover #arrow1 {
   transform:rotateZ(45deg);
+  /*-webkit-transform:rotateZ(45deg);*/
   color: steelblue;
 }
 
@@ -40,15 +46,51 @@ h1 {
   font-weight: 400;
 }
 
-.hoverDownArrow:hover #arrow1  {
+.hoverDownArrow:hover #arrow1 {
   color: steelblue;
 }
+/**/
+
+.hoverRightArrow:hover #title2  {
+  font-weight: 400;
+}
+
+.hoverRightArrow:hover #arrow2 {
+  transform:rotateZ(45deg);
+  /*-webkit-transform:rotateZ(45deg);*/
+  color: steelblue;
+}
+
+.hoverDownArrow:hover #title2 {
+  font-weight: 400;
+}
+
+.hoverDownArrow:hover #arrow2 {
+  color: steelblue;
+}
+
+/**/
+
+.hoverRightArrow:hover #title3  {
+  font-weight: 400;
+}
+
+.hoverRightArrow:hover #arrow3 {
+  transform:rotateZ(45deg);
+  /*-webkit-transform:rotateZ(45deg);*/
+  color: steelblue;
+}
+
+.hoverDownArrow:hover #title3 {
+  font-weight: 400;
+}
+
+.hoverDownArrow:hover #arrow3 {
+  color: steelblue;
+}
+
+/**/
 
 .arrowIcon {
   color: rgb(200, 200, 200);
 }
-
-/*.arrowIcon:hover {
-  transform:rotateZ(45deg);
-  color: steelblue;
-}*/
