@@ -26,11 +26,20 @@ h1 {
 }
 
 .content {
-  /*width = 99%;*/
   margin-top: 5px;
   padding-top: 5px;
   border-top: 1px solid rgb(200, 200, 200);
 }
+
+.arrowIcon {
+  color: rgb(200, 200, 200);
+}
+
+/* Override FontAwesome sizing */
+.fa-1x {
+  font-size: 0.85em !important;}
+
+/* Begin : Arrow #1 and Title #1 hover */
 
 .hoverRightArrow:hover #title1  {
   font-weight: 400;
@@ -49,7 +58,10 @@ h1 {
 .hoverDownArrow:hover #arrow1 {
   color: steelblue;
 }
-/**/
+
+/* End : Arrow #1 and Title #1 hover */
+
+/* Begin : Arrow #2 and Title #2 hover */
 
 .hoverRightArrow:hover #title2  {
   font-weight: 400;
@@ -69,7 +81,9 @@ h1 {
   color: steelblue;
 }
 
-/**/
+/* End : Arrow #2 and Title #2 hover */
+
+/* Begin : Arrow #3 and Title #3 hover */
 
 .hoverRightArrow:hover #title3  {
   font-weight: 400;
@@ -89,8 +103,4 @@ h1 {
   color: steelblue;
 }
 
-/**/
-
-.arrowIcon {
-  color: rgb(200, 200, 200);
-}
+/* End : Arrow #1 and Title #1 hover */
