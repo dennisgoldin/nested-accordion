@@ -35,9 +35,14 @@ h1 {
   color: rgb(200, 200, 200);
 }
 
-/* Override FontAwesome sizing */
+/* Override FontAwesome sizing & color */
 .fa-1x {
-  font-size: 0.85em !important;}
+  font-size: 0.85em !important;
+}
+
+.fa-arrow-down {
+  color: steelblue !important;
+}
 
 /* Begin : Arrow #1 and Title #1 hover */
 
