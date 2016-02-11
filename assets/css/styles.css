@@ -21,16 +21,34 @@ h1 {
 }
 
 .content {
-  width = 99%;
+  /*width = 99%;*/
   margin-top: 5px;
   padding-top: 5px;
   border-top: 1px solid rgb(200, 200, 200);
 }
 
-arrowIcon {
+.hoverRightArrow:hover #title1 {
+  font-weight: 400;
 }
 
-.arrowIcon:hover {
+.hoverRightArrow:hover #arrow1 {
   transform:rotateZ(45deg);
+  color: steelblue;
+}
+
+.hoverDownArrow:hover #title1 {
+  font-weight: 400;
+}
+
+.hoverDownArrow:hover #arrow1  {
+  color: steelblue;
+}
+
+.arrowIcon {
   color: rgb(200, 200, 200);
 }
+
+/*.arrowIcon:hover {
+  transform:rotateZ(45deg);
+  color: steelblue;
+}*/

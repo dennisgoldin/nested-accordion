@@ -5,17 +5,23 @@ var text3 = "Lemon drops ice cream I love danish soufflé cake jelly cupcake. Be
 var storageState1 = "closed";
 
 var content1 = document.querySelector("#content1");
-var event1 = document.querySelector("#title1");
+var event1 = document.querySelector("#hoverBox1");
+var arrow1 = document.querySelector("#arrow1");
+var hoverBox1 = document.querySelector("#hoverBox1");
 
 event1.addEventListener('click', toggle1);
 
 function toggle1() {
   if (storageState1 === "closed") {
       content1.textContent = text1;
+      arrow1.className = "fa fa-arrow-down arrowIcon";
+      hoverBox1.className = "hoverDownArrow";
       storageState1 = "open";
   } else {
     content1.textContent = "";
     storageState1 = "closed";
+    hoverBox1.className = "hoverRightArrow";
+    arrow1.className = "fa fa-arrow-right arrowIcon";
   }
 }
 
