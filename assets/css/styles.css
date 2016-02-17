@@ -25,6 +25,11 @@ h1 {
   font-size: 30px;
 }
 
+.not-visible {
+  height: 1px;
+  overflow: hidden;
+}
+
 .content {
   margin-top: 5px;
   padding-top: 5px;
