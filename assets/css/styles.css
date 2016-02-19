@@ -28,6 +28,9 @@ h1 {
 .not-visible {
   height: 1px;
   overflow: hidden;
+  /*Not working
+  -webkit-transition: height 500ms ease;
+  transition: height 500ms ease;*/
 }
 
 .content {
